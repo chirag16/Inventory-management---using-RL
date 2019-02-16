@@ -12,6 +12,7 @@ sudo apt-get install libreadline-gplv2-dev libncursesw5-dev libssl-dev libsqlite
 sudo make
 sudo make install
 pip3 install gym
+pip3 install prettytable
 apt-get update && apt-get install libopenmpi-dev
 git clone https://github.com/openai/spinningup.git
 cd spinningup
